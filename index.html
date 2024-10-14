@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design That</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.14/dist/lenis.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <nav>
+      <div class="logo">
+        <li><a href="#">Orga</a></li>
+      </div>
+
+      <div class="rest-nav">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+      <div class="buy_now">
+        <button>BUY NOW</button
+        ><i onclick="showSidebar()" class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <ul class="sidebar">
+      <li><i onclick="closeSidebar()" class="fa-solid fa-xmark"></i></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Pricing</a></li>
+    </ul>
+
+    <main>
+      <h1 class="near_future">Near Future</h1>
+    </main>
+
+    <!-- section 1 //////////////////////////////////////////////////-->
+    <section>
+      <div class="s1_tagline">
+        <div class="heading ">
+          <h1 class="txtAni">Think , plan , and track</h1>
+          <h2>all in one place</h2>
+        </div>
+
+        <p>Effectly track and manage your finances</p>
+
+        <div class="action_btn">
+          <button class="action_btn_1">how it works</button>
+          <button class="action_btn_2">Get Started</button>
+        </div>
+
+        <div class="partners">
+          <p>OUR RECENT CLIENTS AND PARTNERS</p>
+          <i class="fa-brands fa-digg"></i>
+          <i class="fa-brands fa-drupal"></i>
+          <i class="fa-brands fa-joomla"></i>
+          <i class="fa-brands fa-stumbleupon"></i>
+          <i class="fa-brands fa-dyalog"></i>
+          <i class="fa-brands fa-pied-piper-pp"></i>
+        </div>
+      </div>
+    </section>
+    <!-- section 1 Finish //////////////////////////////////////////////////-->
+
+    <!-- section 2 //////////////////////////////////////////////////-->
+    <section>
+      <div class="s2_tagline">
+        <h1>Exceptional Financial Service</h1>
+        <p>
+          we offer the best financial service for you in terms that are services
+          are secure
+        </p>
+      </div>
+
+      <div class="s2_card_div">
+        <div class="card">
+          <div class="icon icon-1">
+            <box-icon
+              class="atom"
+              name="atom"
+              rotate="90"
+              color="black"
+            ></box-icon>
+          </div>
+          <h2>EASY TO USE</h2>
+          <p>
+            Designed with a simple, intuitive interface that anyone can navigate
+            effortlessly
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon icon-2">
+            <box-icon class="atom" name="lock-alt" color="black"></box-icon>
+          </div>
+          <h2>SECURE AND DEPENDABLE</h2>
+          <p>Prioritizes your security with advanced encryption.</p>
+        </div>
+        <div class="card">
+          <div class="icon icon-3">
+            <box-icon
+              class="atom"
+              type="solid"
+              name="log-out-circle"
+              color="#928989"
+            ></box-icon>
+          </div>
+          <h2>PLATFOTM AGNOSTIC</h2>
+          <p>
+            platform-agnostic, seamlessly working across all operating systems
+            and devices.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 Finish //////////////////////////////////////////////////-->
+    <!-- section 3  //////////////////////////////////////////////////-->
+    <section>
+      <div class="s3_tagline">
+        <h1>
+          Take the First Step Towards <br />
+          <span>Financial Independence</span>
+        </h1>
+      </div>
+      <div class="s3_card_container">
+        <div class="generic_card card_1">
+          <div class="image">
+            <img src="./assets/asset 4-imageonline.co-merged.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Bento //////////////////////////////////////////////////-->
+    <section>
+      <div class="bento_tagline">
+        <h1>
+          People just like you <br />
+          are already using ORGA
+        </h1>
+      </div>
+      <div class="bento_container">
+        <!-- colum 1//////////////////////////////// -->
+        <div class="c1 col">
+            <!-- row 1///////////////////////////// -->
+          <div class="c1_r1">
+            <p>
+              "I've been using this finance platform for over a year, and it has
+              completely transformed the way I manage my investments. The
+              insights and tools available are second to none. Highly recommend
+              it!"
+            </p>
+            <h3>John D</h3>
+            <img src="./assets/user1.jpg" alt="" />
+          </div>
+           <!-- row 2///////////////////////////// -->
+          <div class="c1_r2">
+            <p>
+              "The budgeting feature has helped me stay on track with my
+              expenses and savings goals."
+            </p>
+            <h3>Samantha L.</h3>
+            <img src="./assets/user5.jpg" alt="" />
+          </div>
+        </div>
+        <!-- colum 2///////////// ///////////////////////-->
+        <div class="c2 col">
+        
+            <!-- row 1///////////////////////////// -->
+          <div class="c2_r1"> <p>
+            "I’ve tried other finance tools, but this website offers the best combination of functionality and ease of use."
+          </p>
+          <h3>Ryan S.</h3>
+          <img src="./assets/user3.jpg" alt="" /></div>
+          <!-- row 2///////////////////////////// -->
+          <div class="c2_r2"><p>
+            "As a small business owner, I needed a reliable tool to track my finances. This website has everything I need, from expense tracking to investment monitoring. It’s saved me a ton of time!"
+          </p>
+          <h3>Michael B.</h3>
+          <img src="./assets/user2.jpg" alt="" /> </div>
+        </div>
+
+        <!-- colum 3///////////// //////////////////////-->
+        <div class="c3 col">
+          <div class="c3_r1"> <p>
+            "Thanks to this finance site, I've learned how to better manage my money and grow my savings. The customer support team is also fantastic—they quickly helped me resolve any questions I had."
+          </p>
+          <h3>Laura P.</h3>
+          <img src="./assets/user6.jpg" alt="" /></div>
+          <div class="c3_r2" <p>
+            "I’ve used several budgeting apps before, but this finance website offers so much more.
+          </p>
+          <h3>David H.</h3>
+          <img src="./assets/user4.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+        <div class="end">
+            <div class="end_heading">
+                <h1>Ready to Take Control of Your Finances?</h1>
+                <p>Take control of your financial life with ease.</p>
+                <hr>
+            </div>
+            <div class="links_container">
+              <h1>Orga</h1>
+
+              <div class="misc">
+                <div class="support">
+                  <h2>Support</h2>
+                  <h3>Contact us</h3>
+                  <h3>FAQ</h3>
+                  <h3>Pricing</h3>
+                </div>
+                <div class="company">
+                  <h2>Company</h2>
+                  <h3>About us</h3>
+                  <h3>Terms of service</h3>
+                  <h3>Privacy Policy</h3>
+                </div>
+
+              </div>
+              
+
+            </div>
+
+        </div>
+    </section>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
